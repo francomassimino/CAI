@@ -63,6 +63,10 @@ namespace LibreriaIndumentaria
         {
             get
             {
+                if (this.stock == 0)
+                {
+                    throw new SinStockException("Indumentaria sin stock");
+                }
                 return stock;
             }
             set
@@ -93,6 +97,14 @@ namespace LibreriaIndumentaria
             {
                 precio = value;
             }
+        }
+    }
+
+    public class SinStockException : Exception
+    {
+        public SinStockException(string mensaje) : base(mensaje)
+        {
+
         }
     }
 
