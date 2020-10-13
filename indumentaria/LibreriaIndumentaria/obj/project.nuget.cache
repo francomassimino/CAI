@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "XFATANyU9TqSIwd6yolYVGJ7R01UOGc727A47fBX/ucIvowz1YJ39FoAlpzAbbPjx6pn2J77wgn2MGVsny6WEw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DarthMaul\\Google Drive\\Facu\\backup\\CAI\\dev\\CAI\\indumentaria\\LibreriaIndumentaria\\LibreriaIndumentaria.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
