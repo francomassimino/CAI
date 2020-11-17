@@ -1,0 +1,138 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Banco.Datos/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Banco.Entidades": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Banco.Datos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Banco.Datos.dll": {}
+        }
+      },
+      "Banco.Entidades/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Banco.Entidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Banco.Entidades.dll": {}
+        }
+      },
+      "Banco.Negocio/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Banco.Datos": "1.0.0",
+          "Banco.Entidades": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Banco.Negocio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Banco.Negocio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Banco.Datos/1.0.0": {
+      "type": "project",
+      "path": "../Banco.Datos/Banco.Datos.csproj",
+      "msbuildProject": "../Banco.Datos/Banco.Datos.csproj"
+    },
+    "Banco.Entidades/1.0.0": {
+      "type": "project",
+      "path": "../Banco.Entidades/Banco.Entidades.csproj",
+      "msbuildProject": "../Banco.Entidades/Banco.Entidades.csproj"
+    },
+    "Banco.Negocio/1.0.0": {
+      "type": "project",
+      "path": "../Banco.Negocio/Banco.Negocio.csproj",
+      "msbuildProject": "../Banco.Negocio/Banco.Negocio.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Banco.Entidades >= 1.0.0",
+      "Banco.Negocio >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\DarthMaul\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\DarthMaul\\Google Drive\\Facu\\backup\\CAI\\dev\\CAI\\banco\\Banco\\Banco.Formularios.csproj",
+      "projectName": "Banco.Formularios",
+      "projectPath": "C:\\Users\\DarthMaul\\Google Drive\\Facu\\backup\\CAI\\dev\\CAI\\banco\\Banco\\Banco.Formularios.csproj",
+      "packagesPath": "C:\\Users\\DarthMaul\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DarthMaul\\Google Drive\\Facu\\backup\\CAI\\dev\\CAI\\banco\\Banco\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\DarthMaul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\DarthMaul\\Google Drive\\Facu\\backup\\CAI\\dev\\CAI\\banco\\Banco.Entidades\\Banco.Entidades.csproj": {
+              "projectPath": "C:\\Users\\DarthMaul\\Google Drive\\Facu\\backup\\CAI\\dev\\CAI\\banco\\Banco.Entidades\\Banco.Entidades.csproj"
+            },
+            "C:\\Users\\DarthMaul\\Google Drive\\Facu\\backup\\CAI\\dev\\CAI\\banco\\Banco.Negocio\\Banco.Negocio.csproj": {
+              "projectPath": "C:\\Users\\DarthMaul\\Google Drive\\Facu\\backup\\CAI\\dev\\CAI\\banco\\Banco.Negocio\\Banco.Negocio.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

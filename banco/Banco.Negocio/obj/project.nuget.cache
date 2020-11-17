@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "v4LQPD07iA4ov2OUFz+TzZoXbRvsMdO93uYS55l0+owr3lqLs9rjVCq+o5zI0y3SQ/TlMFnl1rIFLJ7E9VPCKw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DarthMaul\\Google Drive\\Facu\\backup\\CAI\\dev\\CAI\\banco\\Banco.Negocio\\Banco.Negocio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -4,7 +4,11 @@ using System.Text;
 
 namespace LibreriaIndumentaria
 {
-    class IndumentariaFormal
+    public class IndumentariaFormal : TipoIndumentaria
     {
+        public IndumentariaFormal(string origen, double porcentaje_algodon) : base(origen, porcentaje_algodon)
+        {
+
+        }
     }
 }

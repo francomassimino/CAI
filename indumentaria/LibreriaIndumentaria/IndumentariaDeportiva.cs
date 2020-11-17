@@ -4,7 +4,13 @@ using System.Text;
 
 namespace LibreriaIndumentaria
 {
-    class IndumentariaDeportiva
+    
+
+    public class IndumentariaDeportiva : TipoIndumentaria
     {
+        public IndumentariaDeportiva(string origen, double porcentaje_algodon) : base(origen, porcentaje_algodon)
+        {
+
+        }
     }
 }

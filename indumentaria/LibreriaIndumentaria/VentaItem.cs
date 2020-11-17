@@ -9,6 +9,15 @@ namespace LibreriaIndumentaria
         private Indumentaria prenda;
         private int cantidad;
 
+        public VentaItem(Indumentaria prenda, int cantidad)
+        {
+            this.Prenda = prenda;
+            this.Cantidad = cantidad;
+        }
+        public double GetTotal()
+        {
+            return cantidad * prenda.Precio;
+        }
         public int Cantidad
         {
             get
@@ -21,7 +30,7 @@ namespace LibreriaIndumentaria
             }
         }
         
-        public Indumentaria Penda
+        public Indumentaria Prenda
         {
             get
             {

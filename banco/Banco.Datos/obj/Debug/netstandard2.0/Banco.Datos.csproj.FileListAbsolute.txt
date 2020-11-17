@@ -1,0 +1,4 @@
+C:\Users\DarthMaul\Google Drive\Facu\backup\CAI\dev\CAI\banco\Banco.Datos\bin\Debug\netstandard2.0\Banco.Entidades.dll
+C:\Users\DarthMaul\Google Drive\Facu\backup\CAI\dev\CAI\banco\Banco.Datos\obj\Debug\netstandard2.0\Banco.Datos.csprojAssemblyReference.cache
+C:\Users\DarthMaul\Google Drive\Facu\backup\CAI\dev\CAI\banco\Banco.Datos\obj\Debug\netstandard2.0\Banco.Datos.AssemblyInfoInputs.cache
+C:\Users\DarthMaul\Google Drive\Facu\backup\CAI\dev\CAI\banco\Banco.Datos\obj\Debug\netstandard2.0\Banco.Datos.AssemblyInfo.cs
